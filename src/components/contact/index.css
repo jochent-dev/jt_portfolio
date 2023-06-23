@@ -1,0 +1,46 @@
+.contact_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+.contact_input{
+    width: 98%;
+    background-color: inherit;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+    background-color: rgb(194, 197, 200);
+    padding: 1em;
+}
+
+textarea{
+    resize: none;
+    height: 20em;
+    border-radius: 4px;
+
+}
+
+.thanks_page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_btn{
+    background-color: black;
+    color: white;
+}

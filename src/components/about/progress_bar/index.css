@@ -1,0 +1,21 @@
+.parent_div{
+    height: 1.5em;
+    width: 100%;
+    background-color: #e0d8d8fb;
+    border-radius: 5px;
+    margin: 50;
+}
+.child_div{
+    height: 100%;
+    background-color: green;
+    border-radius: 4px;
+    text-align: right;
+
+}
+.progresstext{
+    padding-right: 1em;
+    color: black;
+    font-weight: 900;
+    margin: auto;
+    text-align: right;
+}

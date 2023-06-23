@@ -1,0 +1,68 @@
+h1{
+    text-align: left;
+    color: rgb(3, 188, 18);
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 0;
+}
+
+img{
+    height: 50vh;
+}
+
+.main{
+    color: black;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    text-align: left;
+}
+
+.left_container{
+    flex-basis: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_container{
+    flex-basis: 1;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.right_container > h2{
+    font-size: 30px;
+    color: rgba(8, 0, 0, 0.689);
+    margin: 0;
+    font-weight: 300;
+}
+#name{
+    font-size: 35px;
+    color: rgba(55, 52, 118, 0.899);
+    font-weight: 500;
+}
+
+img{
+    border-radius: 8px;
+    /* max-width: 50%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(43, 45, 44, 0.829);
+    /* height: auto; */
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
