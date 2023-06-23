@@ -1,16 +1,16 @@
 import Typed from 'react-typed'
 import './index.css'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/c0736760-11b7-11ee-b0a7-9f000c4c1540"; // TODO - update to the correct endpoint
 
 export default function Contact(){
   const [submitted, setSubmitted] = useState(false);
-  function handleSubmit(e) {
+  function handleSubmit(e: any) {
     e.preventDefault();
 
     const inputs = e.target.elements;
-    const data = {};
+    const data: { [key: string]: string } = {};
 
     for (let i = 0; i < inputs.length; i++) {
       if (inputs[i].name) {
@@ -34,6 +34,7 @@ export default function Contact(){
         setSubmitted(true);
       })
       .catch((err) => {
+        console.log(err)
         // Submit the form manually
         e.target.submit();
       });

@@ -1,5 +1,5 @@
 import './App.css'
-import { Link, NavLink, Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
