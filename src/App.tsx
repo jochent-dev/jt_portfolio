@@ -13,55 +13,27 @@ export default function App() {
     <div className='container'>
       <nav className='nav_bar'>
         <div className='nav_link'>
-          <NavLink className={({ isActive }) =>
-            [
-              "link",
-              isActive ? "active_link" : null,
-            ]
-              .filter(Boolean)
-              .join(" ")
-          } to="/">
+          <NavLink activeClassName="active_link" className="link" to="/">
             <FontAwesomeIcon icon={faHome} size="3x" />
             <span className='link_name'>&gt;Home</span>
           </NavLink>
         </div>
         <div className='nav_link'>
-        <NavLink className={({ isActive }) =>
-            [
-              "link",
-              isActive ? "active_link" : null,
-            ]
-              .filter(Boolean)
-              .join(" ")
-          } to="/about">
+          <NavLink activeClassName="active_link" className="link" to="/about">
             <FontAwesomeIcon icon={faUser} size="3x" />
             <span className='link_name'>&gt;About</span>
 
           </NavLink>
         </div>
         <div className='nav_link'>
-        <NavLink className={({ isActive }) =>
-            [
-              "link",
-              isActive ? "active_link" : null,
-            ]
-              .filter(Boolean)
-              .join(" ")
-          } to="/projects">
+          <NavLink activeClassName="active_link" className="link" to="/projects">
             <FontAwesomeIcon icon={faFolder} size="3x" />
             <span className='link_name'>&gt;Proj.</span>
 
           </NavLink>
         </div>
         <div className='nav_link'>
-        <NavLink className={({ isActive }) =>
-            [
-              "link",
-              isActive ? "active_link" : null,
-            ]
-              .filter(Boolean)
-              .join(" ")
-          } to="/contact">
+          <NavLink activeClassName="active_link" className="link" to="/contact">
             <FontAwesomeIcon icon={faEnvelope} size="3x" />
             <span className='link_name'>&gt;Cont.</span>
           </NavLink>
