@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
 }
 
 form{
@@ -16,13 +17,18 @@ form{
     border: none;
     border: 1px solid black;
     border-radius: 5px;
+    
+}
+.contact_input::placeholder{
+    color: white;
+    font-family: 'M PLUS Code Latin', sans-serif;
 }
 
 .contact_form{
     display: flex;
     flex-direction: column;
     row-gap: .5em;
-    background-color: rgb(194, 197, 200);
+    /* background-color: rgb(194, 197, 200); */
     padding: 1em;
 }
 

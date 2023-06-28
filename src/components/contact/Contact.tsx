@@ -65,13 +65,13 @@ export default function Contact(){
           method="POST"
         >
 
-            <input className='contact_input' type="text" placeholder="Your name" name="name" required />
+            <input className='contact_input' type="text" placeholder="Name" name="name" required />
 
 
             <input className='contact_input' type="email" placeholder="Email" name="email" required />
 
 
-            <textarea className='contact_input' placeholder="Your message" name="message" required />
+            <textarea className='contact_input' placeholder="Message" name="message" required />
 
             <button className='contact_btn' type="submit"> Send a message </button>
         </form>
