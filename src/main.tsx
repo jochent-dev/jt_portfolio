@@ -1,20 +1,28 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import './assets/PressStart2P-Regular.ttf'
 // import 'bootstrap/dist/css/bootstrap.css';
 
-ReactDOM.render(
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//     <App />
+//     </BrowserRouter>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+      <App />
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+  </React.StrictMode>
+)
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // import './index.css';
