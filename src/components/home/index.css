@@ -60,8 +60,10 @@ img{
     .main{
         flex-direction: column;
     }
-    .right_container > h2{
+    .right_container h2{
         color: white;
+        font-size: 20px;
+        margin-top: 8%;
     }
 }
 

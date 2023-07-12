@@ -58,9 +58,13 @@ textarea{
    }
    .contact_form{
     width: 90%;
+    padding-top: 70px;
    }
    .contact_btn{
     background-color: white;
     color: black;
+   }
+   .contact_main{
+    align-items:self-start;
    }
 }
