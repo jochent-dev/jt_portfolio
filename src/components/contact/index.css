@@ -50,3 +50,17 @@ textarea{
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+   .contact_input{
+    border: 1px solid white;
+    width: 100%;
+   }
+   .contact_form{
+    width: 90%;
+   }
+   .contact_btn{
+    background-color: white;
+    color: black;
+   }
+}
