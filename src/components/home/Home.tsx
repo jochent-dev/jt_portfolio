@@ -17,8 +17,7 @@ export default function Home() {
                     <img src={headshot} alt='headshot' />
                 </div>
                 <div className='right_container'>
-                    <h2>HELLO WORLD,</h2>
-                    <h2>MY NAME IS <span id='name'>JOCHEN TAMANG</span></h2>
+                    <h2>HELLO WORLD,<br></br>I'm <span id='name'>JOCHEN TAMANG</span></h2>
                 </div>
 
             </div>
