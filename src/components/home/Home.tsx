@@ -7,7 +7,7 @@ export default function Home() {
     return (
 
         <>
-            <h1><Typed strings={[
+            <h1 className='title'><Typed strings={[
                 "Home"]}
                 typeSpeed={100}
                 backSpeed={50}
