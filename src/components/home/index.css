@@ -60,6 +60,9 @@ img{
     .main{
         flex-direction: column;
     }
+    .right_container > h2{
+        color: white;
+    }
 }
 
 
