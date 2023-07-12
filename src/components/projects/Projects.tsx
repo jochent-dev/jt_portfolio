@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <>
             <h1><Typed strings={[
-                "Projects"]}
+                "Proj."]}
                 typeSpeed={100}
                 backSpeed={50}
                 loop /></h1>

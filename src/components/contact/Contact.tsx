@@ -54,7 +54,7 @@ export default function Contact(){
   return (
     <>
     <h1><Typed strings={[
-                "About"]}
+                "Cont."]}
                 typeSpeed={100}
                 backSpeed={50}
                 loop /></h1>
