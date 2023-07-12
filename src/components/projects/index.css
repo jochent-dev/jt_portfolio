@@ -42,4 +42,7 @@
         margin-left: 0;
         align-items: center;
     }
+    .project_icons{
+        padding-bottom: 5%;
+    }
 }
