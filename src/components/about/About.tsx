@@ -18,7 +18,7 @@ export default function About() {
                     <div className='abt_left2'>
                         <div className='left_content'>
                             <h3>Grand Valley State University</h3>
-                            <h3 className='tag'>B.S. Computer Science</h3>
+                            <h3 className='tag'>Degree: B.S. Computer Science<br/>Minor: Mathematics</h3>
                             <p className='date' >Aug. 2020 - May 2024</p>
                             <p>GPA: 3.843<br/>Relevant Coursework:</p>
                             <ul>
@@ -42,10 +42,11 @@ export default function About() {
                             <h3 className='tag'>Stores Technology Service Intern</h3>
                             <p className='date'>May 2023 - Ongoing</p>
                             <ul>
-                                <li>Provided daily remote technical support to GFS stores in troubleshooting and resolving hardware and software issues. </li>
+                                <li>Provided remote technical support to 100+ GFS stores in troubleshooting and resolving hardware and software issues related to POS systems, scanners, PCs, and other technologies.</li>
                                 <li>Assisted in performing routing system maintenance tasks, such as updating softwares, and conducting hardware checks to ensure optimal performance of store technologies.</li>
                                 <li>Configured networks for stores, including switches and VLANs, as part of the Re-IP project.</li>
-                                <li>Developed and deployed front-end codes for Zebra devices. </li>
+                                <li>Developed and deployed front-end code for store Zebra devices, utilizing HTML, CSS, and JavaScript.</li>
+                                <li>Developed comprehensive troubleshooting guides and general documentation to assist the team in resolving technical issues and understanding product functionalities.</li>
                             </ul>
                         </div>
                         <p></p>

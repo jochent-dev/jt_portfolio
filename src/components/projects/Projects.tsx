@@ -13,7 +13,7 @@ export default function Projects() {
             <div className='project_main'>
                 <div className='project_item'>
                     <h2>Wordle Clone<br />(Vue3)</h2>
-                    <p>A clone of the popular game, Wordle, built using Vue3 & Firebase. Users can login and view past games.</p>
+                    <p>A clone of the popular game, Wordle, built using Vue3 & Firebase. Users can login and view past games. The game gets random word from remote server built using expressJS </p>
                     <div className='project_icons'><a><FontAwesomeIcon icon={faPaperclip} size="2x" /> </a>
                         <FontAwesomeIcon icon={faCode} size="2x" /> </div>
                 </div>
@@ -25,20 +25,20 @@ export default function Projects() {
                 </div>
                 <div className='project_item'>
                     <h2>College Planner App<br />(Vue3)</h2>
-                    <p>A web application that allows user to manage and keep track of their college deadlines as well as upcoming events.</p>
+                    <p>A web application that allows user to manage and keep track of their college deadlines as well as upcoming events. It was built using Vue3 for front-end and Firebase for backend.</p>
                     <div className='project_icons'><a><FontAwesomeIcon icon={faPaperclip} size="2x" /> </a>
                         <FontAwesomeIcon icon={faCode} size="2x" /> </div>
                 </div>
                 <div className='project_item'>
                     <h2>Portfolio Site<br />(React)</h2>
-                    <p>The current site you are on was built using React to display my skills and experiences.</p>
+                    <p>The current site you are on is built using React to display my skills and experiences.</p>
                     <div className='project_icons'><a><FontAwesomeIcon icon={faPaperclip} size="2x" /> </a>
                         <FontAwesomeIcon icon={faCode} size="2x" /> </div>
                 </div>
                 <div className='project_item'>
                     <h2>Spell IT<br />(React)</h2>
                     <p>A spelling game that tracks history of the user. The front-end was built using React and back-end was built with MongoDB</p>
-                    <div className='project_icons'><a><FontAwesomeIcon icon={faPaperclip} size="2x" /> </a>
+                    <div className='project_icons'><a target="_blank" href="https://college-planner-app.vercel.app/#/"><FontAwesomeIcon icon={faPaperclip} size="2x" /> </a>
                         <FontAwesomeIcon icon={faCode} size="2x" /> </div>
                 </div>
             </div>
